@@ -1,35 +1,41 @@
-Open Documencation in https://expressjs.com/ or 
+Open Documencation in https://expressjs.com/ or
 
 1. First You can Create "npm init" lalu kamu suruh melengkapi pertanyaan yang akan membantu mngenisial project kamu
 2. Muncullah file baru otomatis namanya 'package.json'
-3. Lalu  buatlah file 'app.js' dengan kode didalamnya seperti di dokumentasi untuk menampilkan 'Hello World' di localhost/3000
+3. Lalu buatlah file 'app.js' dengan kode didalamnya seperti di dokumentasi untuk menampilkan 'Hello World' di localhost/3000
 4. lalu ketik "npm install express" or "npm install express --save" sama aja
 5. lalu Muncullah file baru otomatis namanya 'package-lock.json' dan folder 'node-modules'
 
-
 Untuk menyimpan project express.js ini ke github maka hal yang harus dilakukan adalah:
+
 1. menambahkan/create file '.gitignore'
-2. isinya "
+2. isinya (untuk membaca file dibawah harus readme.md nya di download)"
+
 # Untuk mengabaikan Node modules
+
 /node_modules
 
 # Logs
+
 logs
-*.log
+\*.log
 
 # Optional npm cache directory
+
 .npm
 
 # Optional eslint cache
+
 .eslintcache
 
 # IDEs
+
 .idea/
 .vscode/
 "
 
 3. lalu seperti biasa:
-"git init"
+   "git init"
 
 "git add ."
 
@@ -37,8 +43,6 @@ logs
 
 "git commit -m "pertama" "
 
-"git branch -M main" 
+"git branch -M main"
 
 dan seterusnya hingga push
-
-
