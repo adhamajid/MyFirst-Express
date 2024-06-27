@@ -1,4 +1,4 @@
-#Cara buat ni Projrct
+# Cara buat ni Projrct
 
 Open Documencation in https://expressjs.com/ or
 
@@ -8,7 +8,7 @@ Open Documencation in https://expressjs.com/ or
 4. lalu ketik "npm install express" or "npm install express --save" sama aja
 5. lalu Muncullah file baru otomatis namanya 'package-lock.json' dan folder 'node-modules'
 
-#Untuk menyimpan project express.js ini ke github maka hal yang harus dilakukan adalah:
+# Untuk menyimpan project express.js ini ke github maka hal yang harus dilakukan adalah:
 
 1. menambahkan/create file '.gitignore'
 
@@ -25,7 +25,7 @@ Open Documencation in https://expressjs.com/ or
 
 dan seterusnya hingga push
 
-#Untuk mempermudah seorang tanpa restart server(ctrl+c)
+# Untuk mempermudah seorang tanpa restart server(ctrl+c)
 
 buatlah/ketik command berikut:
 "npm install -g nodemon"
