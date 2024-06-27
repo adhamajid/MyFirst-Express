@@ -1,3 +1,5 @@
+#Cara buat ni Projrct
+
 Open Documencation in https://expressjs.com/ or
 
 1. First You can Create "npm init" lalu kamu suruh melengkapi pertanyaan yang akan membantu mngenisial project kamu
@@ -6,35 +8,11 @@ Open Documencation in https://expressjs.com/ or
 4. lalu ketik "npm install express" or "npm install express --save" sama aja
 5. lalu Muncullah file baru otomatis namanya 'package-lock.json' dan folder 'node-modules'
 
-Untuk menyimpan project express.js ini ke github maka hal yang harus dilakukan adalah:
+#Untuk menyimpan project express.js ini ke github maka hal yang harus dilakukan adalah:
 
 1. menambahkan/create file '.gitignore'
-2. isinya (untuk membaca file dibawah harus readme.md nya di download)"
 
-# Untuk mengabaikan Node modules
-
-/node_modules
-
-# Logs
-
-logs
-\*.log
-
-# Optional npm cache directory
-
-.npm
-
-# Optional eslint cache
-
-.eslintcache
-
-# IDEs
-
-.idea/
-.vscode/
-"
-
-3. lalu seperti biasa:
+2. lalu seperti biasa:
    "git init"
 
 "git add ."
@@ -46,3 +24,18 @@ logs
 "git branch -M main"
 
 dan seterusnya hingga push
+
+#Untuk mempermudah seorang tanpa restart server(ctrl+c)
+
+buatlah/ketik command berikut:
+"npm install -g nodemon"
+
+"Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
+
+dan menjalankan nya sudah tidak memakai perintah/command:
+
+"node app"
+
+tapi menggunakan:
+
+"nodemon app"
